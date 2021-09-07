@@ -1,0 +1,53 @@
+.Success {
+    padding: 0rem 1.5625rem 1.5625rem 1.5625rem;
+    background: #FFFFFF;
+}
+
+.Success-title {
+    padding: 1.25rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #090909;
+    text-align: center;
+}
+
+.Success-list {
+    padding-top: .3125rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 600;
+    color: #FA9124;
+    line-height: 20px;
+}
+.item-suc-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: .625rem;
+}
+.list-item {
+    display: flex;
+    align-items: center;
+    padding-top: 1.1875rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.list-item:first-child {
+    padding-top: 0;
+}
+.Success-content {
+    padding-top: 1.5rem;
+    font-size: .875rem;
+    font-weight: 400;
+    color: #272727;
+    line-height: 20px;
+}
+
+.success-icon {
+    padding: 2rem 0;
+    width: 12.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

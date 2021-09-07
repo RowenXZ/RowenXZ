@@ -1,0 +1,78 @@
+.Index {
+    text-align: center;
+    background: #040404;
+    padding: 0rem 1.5625rem;
+    height: 100%;
+  }
+  
+  .Index-logo {
+    margin-top: 1.875rem;
+    width: 100%;
+    pointer-events: none;
+  }
+  
+  .Index-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.1875rem 0 1.875rem 0;
+    border-bottom: .0625rem solid #666666;
+    cursor: pointer;
+  }
+  
+  .Index-content-click {
+    width: 7.9375rem;
+    height: 8.3125rem;
+  }
+  
+  .Index-content-fill {
+    margin-top: .875rem;
+    width: 2.75rem;
+    height: 2.9375rem;
+  }
+  
+  .Index-content-text {
+    margin-top: .875rem;
+    font-size: 18px;
+    color: #FFFFFF;
+  }
+  
+  .Index-list {
+    margin: 1.875rem 0;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: start;
+  }
+  .Index-list ol {
+    margin-block-start: 0rem !important;
+    padding-inline-start: 1.25rem !important;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .Index-logo {
+      /* animation: Index-logo-spin infinite 20s linear; */
+    }
+  }
+  
+  .Index-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .Index-link {
+    color: #61dafb;
+  }
+  
+  @keyframes Index-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }

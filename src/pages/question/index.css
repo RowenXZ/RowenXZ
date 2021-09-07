@@ -1,0 +1,128 @@
+.Question {
+    padding: 0rem 1.5625rem 1.5625rem 1.5625rem;
+    background: #FFFFFF;
+}
+
+.Question-title {
+    padding: 1.25rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #090909;
+    text-align: center;
+}
+
+.Question-form {
+    padding: 1.25rem;
+}
+
+.form-item {
+    margin-top: .625rem;
+}
+
+.form-item .form-body {
+    margin-top: .625rem;
+}
+
+.form-item:nth-child(3) {
+    margin-top: 0 !important;
+}
+
+.form-item:nth-child(3) .form-body {
+    margin-top: 0 !important;
+}
+
+.form-lable {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.lable-icon {
+    width: .9375rem;
+    height: .9375rem;
+}
+
+.lable-text {
+    padding-left: .625rem;
+    font-size: 14px;
+    font-weight: 400;
+    color: #090909;
+}
+
+.form-body {
+    margin-left: .4625rem;
+    height: auto;
+    border-left: .0625rem solid #FA9124;
+}
+
+.bady-warp {
+    padding: 2.5rem .8125rem;
+}
+
+.warp-btn {
+    padding: 0.6375rem 0;
+    width: 10.5625rem;
+    height: auto;
+    background: #FA9124;
+    border-radius: 1.5rem;
+    border: solid;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: normal;
+    color: #FFFFFF;
+    line-height: 14px;
+}
+.warp-btn .twitter-icon {
+    width: 1.125rem;
+    height: .9375rem;
+    background: url('../../assets/image/Twitter.png') no-repeat;
+    margin-right: .1875rem;
+}
+
+.warp-text {
+    font-size: 16px;
+    font-weight: 600;
+    color: #FA9124;
+}
+
+.userAddress {
+    background: #F6F4F2;
+    border-radius: .375rem;
+    padding: .8125rem;
+    border: none;
+    margin: auto auto 2.8125rem .8125rem;
+    width: 85%;
+}
+
+.userName {
+    margin: .625rem auto auto .8125rem;
+}
+
+.userName,
+.userAddress {
+    background: #F6F4F2;
+    border-radius: .375rem;
+    padding: 0rem .8125rem;
+    border: none;
+    width: 85%;
+    height: 2.875rem;
+}
+
+.userName:focus {
+    border: none;
+}
+
+.btn {
+    padding: .9375rem 0;
+    width: 100%;
+    background: linear-gradient(180deg, #F9B06C 0%, #FA9124 100%);
+    border-radius: 1.625rem;
+    font-size: .875rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    border: solid;
+    cursor: pointer;
+}
