@@ -21,7 +21,7 @@ export default function Calling(props: IndexProps) {
                 <img src={fill} className="Index-content-fill" alt="click" />
                 <span className="Index-content-text" > Please click to get the gift! </span>
             </div>
-            <div className="Index-list" >
+            {/* <div className="Index-list" >
                 Details of the event:
                 <ol type="1" >
                     <li>Click “Mail” to get gifts; </li>
@@ -30,7 +30,7 @@ export default function Calling(props: IndexProps) {
                 </ol>
                 Award: <br />
                 Reward 5 PNFT
-            </div>
+            </div> */}
         </div>
     );
 }

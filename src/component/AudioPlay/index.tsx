@@ -1,8 +1,8 @@
 interface IAudioProps {
     url: any,
+    loop: boolean
     autoPlay?: true,
     controls?: false
-    loop?: true
 }
 const AudioPlay = (props: IAudioProps) => {
     return (
@@ -11,7 +11,7 @@ const AudioPlay = (props: IAudioProps) => {
             controlsList="nodownload"
             autoPlay={true}
             controls={false}
-            loop={true}>
+            loop={props.loop}>
             <track kind="captions" />
             您的浏览器不支持 audio 元素
         </audio>

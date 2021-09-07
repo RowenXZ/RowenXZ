@@ -1,15 +1,15 @@
-import { useEffect, useRef } from 'react';
-import AudioPlay from '../../component/AudioPlay'
+import React from 'react';
+// import AudioPlay from '../../component/AudioPlay'
 import './index.css'
 export interface ICatchProps {
   history: any
 }
 
 export default function Catch(props: ICatchProps) {
-  const audioRef = useRef();
-  useEffect(() => {
-    console.log(audioRef.current);
-  }, [])
+  // const audioRef = useRef();
+  // useEffect(() => {
+  //   console.log(audioRef.current);
+  // }, [])
   return (
     <div className="Catch">
       <div className="Catch-content">

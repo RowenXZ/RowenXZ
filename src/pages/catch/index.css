@@ -20,9 +20,9 @@
 
 .Catch-click {
     position: absolute;
-    width: 45vw;
-    height: 7rem;
+    width: 45%;
+    height: 8rem;
     right: 0;
-    bottom: 3.5rem;
+    bottom: 4.5rem;
     cursor: pointer;
 }

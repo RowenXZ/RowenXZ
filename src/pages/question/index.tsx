@@ -1,6 +1,6 @@
 import React, { useState, useCallback, useEffect } from 'react';
 import { TwitterShareButton } from 'react-share';
-import arrow from '../../assets/image/arrow.png';
+// import arrow from '../../assets/image/arrow.png';
 import twitter from '../../assets/image/Twitter.png';
 
 import './index.css';
@@ -57,7 +57,7 @@ export default function Question(props: IQuestionProps) {
       <div className="Question-form">
         <div className="form-item">
           <div className="form-lable">
-            <img src={arrow} alt="arrow" className="lable-icon" />
+            {/* <img src={arrow} alt="arrow" className="lable-icon" /> */}
             <span className="lable-text">Share pinned messages on Twitter</span>
           </div>
           <div className="form-body">
