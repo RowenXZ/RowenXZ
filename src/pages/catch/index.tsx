@@ -13,7 +13,7 @@ export default function Catch(props: ICatchProps) {
   return (
     <div className="Catch">
       <div className="Catch-content">
-        <span className="Catch-title">ICE Mom</span>
+        <span className="Catch-title">CZ 🔶 Binance</span>
       </div>
       <div className="Catch-click" onClick={() => {
         props.history.push('/calling')

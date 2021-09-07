@@ -66,7 +66,7 @@ export default function Calling(props: ICallingProps) {
         //   Your browser does not support the audio element
       </audio>*/}
       <div className="Calling-content">
-        <span className="Calling-title">ICE Mom</span>
+        <span className="Calling-title">CZ 🔶 Binance</span>
         <span className="Calling-time">{formateTime(time)}</span>
       </div>
       <div className="Calling-click" onClick={onClose}></div>
